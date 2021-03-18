@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+  ngnix:
+    image: ngnix
+    ports:
+      - 5000:8080
+    environment: 
+      cpu_percent: 0.5
+      mem_limit: 100m
+      
